@@ -8,13 +8,18 @@
 
 // = é atribuição
 // == para comparar valor
-// === comparar valor e formato do conteúdo 
+// === comparar valor e formato do conteúdo (só existe no js)
 
 let numero = "1"
 console.log("usando comparativo de igualdade ===: ")
 console.log(numero === 1)
 
 //o resultado deu false, pois embora seja o número 1 dentro da variável está como string e dentro do console log está como number
+
+let texto = "Robson"
+console.log(texto === "robson")
+
+//irá retornar falso, pois o JS é case sensitive.
 
 //Diferente
 
